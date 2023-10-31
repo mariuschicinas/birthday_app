@@ -39,7 +39,7 @@ docker-compose up
 ```bash
 curl -X PUT -H "Content-Type: application/json" -d '{"dateOfBirth": "2015-07-01"}' http://localhost:5000/hello/revolut
 ```
-- Get user birthday
+- Get user revolut birthday
 ```bash
 curl -XGET http://localhost:5000/hello/revolut
 ```
