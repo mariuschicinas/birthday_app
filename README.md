@@ -22,3 +22,14 @@ B. If username's birthday is today:
     { "message": "Hello, <username>! Happy birthday!"}
 
 ```
+### Prerequisistes
+Install [Docker](https://docs.docker.com/get-docker/)
+Install [docker-compose](https://docs.docker.com/compose/install/)
+
+## Usage
+```bash
+mkdir /var/birthday_app
+git clone git@github.com:mariuschicinas/birthday_app.git
+docker-compose build
+docker-compose up
+```
