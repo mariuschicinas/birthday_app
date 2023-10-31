@@ -103,12 +103,12 @@ def get_birthday(username):
                 except ValueError as e:
                     return f"Invalid date_of_birth format: {e}", 400
         else:
-            return "User not found 1", 404
+            return "User not found.", 404
 
     except mysql.connector.Error as err:
         return f"Database error: {err}", 500
 
-    return "User not found 2", 404
+    return "User not found.", 404
 
 
 
