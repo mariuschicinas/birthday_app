@@ -26,10 +26,19 @@ B. If username's birthday is today:
 Install [Docker](https://docs.docker.com/get-docker/)
 Install [docker-compose](https://docs.docker.com/compose/install/)
 
-## Usage
+### Install
 ```bash
 mkdir /var/birthday_app
 git clone git@github.com:mariuschicinas/birthday_app.git
 docker-compose build
 docker-compose up
+```
+### Usage
+- Insert user revolut with date of birth July 1, 2015
+```bash
+curl -X PUT -H "Content-Type: application/json" -d '{"dateOfBirth": "2015-07-01"}' http://localhost:5000/hello/revolut
+```
+- Get user birthday
+```bash
+curl -XGET http://localhost:5000/hello/revolut
 ```
