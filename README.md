@@ -24,6 +24,7 @@ B. If username's birthday is today:
 ```
 ### Prerequisistes
 Install [Docker](https://docs.docker.com/get-docker/)
+
 Install [docker-compose](https://docs.docker.com/compose/install/)
 
 ### Install
