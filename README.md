@@ -30,7 +30,7 @@ Install [docker-compose](https://docs.docker.com/compose/install/)
 ### Install
 ```bash
 mkdir /var/birthday_app
-git clone git@github.com:mariuschicinas/birthday_app.git
+git clone git@github.com:mariuschicinas/birthday_app.git .
 docker-compose build
 docker-compose up
 ```
