@@ -22,7 +22,7 @@ B. If username's birthday is today:
     { "message": "Hello, <username>! Happy birthday!"}
 
 ```
-### Prerequisistes
+### Prerequisites
 Install [Docker](https://docs.docker.com/get-docker/)
 
 Install [docker-compose](https://docs.docker.com/compose/install/)
