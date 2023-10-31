@@ -1,6 +1,6 @@
 # Your Birthday Application PoC
 ```bash
-1. Design and code a simple "Hello World" appication tht exposes the following HTTP-base APIs:
+1. Design and code a simple "Hello World" application that exposes the following HTTP-base APIs:
 
 Description: saves/updates the given user's name and date of birth in the database.
 Request PUT /hello/<username> { "dateOfBirth": "YYYY-MM-DD" }
